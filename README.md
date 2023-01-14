@@ -2,6 +2,15 @@
 
 This repository follow up tutorials on Terraform Official AWS [at this link](https://developer.hashicorp.com/terraform/tutorials/aws-get-started).
 
+
+## How to run
+
+- Clone Repository: `git clone git@github.com:mtigdemir/terraform-aws-tutorial.git`
+
+- Change Directory: `cd terraform-aws-tutorial` 
+
+- Apply Terraform: `terraform apply`
+
 ## Prerequisites (For Mac Users)
  - `brew install terraform`
  - `brew install awscli`
@@ -15,9 +24,3 @@ This repository follow up tutorials on Terraform Official AWS [at this link](htt
 ### Useful links to start Terraform
 
 - [Terraform AWS Documentation](https://registry.terraform.io/providers/hashicorp/aws/latest) 
-
-### Handy Commands
-
-- Initialize Terraform
-
-        terraform init
